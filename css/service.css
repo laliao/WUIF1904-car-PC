@@ -1,0 +1,61 @@
+/*四个图块*/
+.segment{
+    height:343px;
+    width:1024px;
+    margin:0 auto 80px;
+}
+.segment .segin{
+    height:auto;
+    width:1024px;
+    margin-top:40px;
+    padding:0 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.segment .segin .box{
+    height:auto;
+    width:236px;
+    float:left;
+    padding:0 5px;
+}
+.segment .segin .box .image1{
+    width:236px;
+    height:auto;
+    margin-top:10px;
+    box-shadow: 2px 2px 5px #A8A8A8;
+
+}
+.segment .segin .box .image1 img{
+    width:236px;
+    height:auto;
+} 
+.segment .segin .box .text1{
+    height:24px;
+    line-height:24px;
+    width:100%;
+    font-size:16px;
+    font-family: 宋体;
+    font-weight: bold;
+    color:#ff6700;
+    text-align:center;
+    margin-top:20px;
+}
+.segment .segin .box .image2{
+    height:11px;
+    width:182px;
+    margin:10px auto 0;
+}
+.segment .segin .box .image2 img{
+    display:block;
+    height:1px;
+    width:182px;
+    
+} 
+.segment .segin .box .text2{
+    height:100px;
+    line-height:25px;
+    width:206px;
+    margin:0 auto;
+    font-size:14px;
+    color:#808080;
+}

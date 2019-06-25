@@ -1,0 +1,75 @@
+.content{
+    width:1024px;
+    height:auto;
+    margin-bottom:50px;
+    padding:0 25px;
+    box-sizing: border-box;
+}
+.content .topp{
+    width:100%;
+    height:31px;
+}
+.content .topp>li{
+    float: left;
+    margin: 0 10px 10px 0;
+}
+.content .topp li>span{
+    font-size: 16px;
+    color: #F0443A;
+    display: block;
+    cursor: pointer;
+   
+}
+.content .topp li>span:hover{
+    border-bottom: 1px dotted;
+}
+.content .topp .hover1{
+ border-bottom: 1px dotted;
+}
+.content .bottom{
+    margin-top: 10px;
+    height: 582px;
+    width: 100%;
+    position: relative;
+}
+.content .bottom .bottom-bt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display:none;
+}
+
+.content .bottom .bottom-bt .goods {
+    height:261px;
+    width: 233px;
+    padding: 0 5px 5px 5px;
+    margin-bottom: 5px;
+    float: left;
+    background: #fff;
+}
+.content .bottom .bottom-bt .goods .gd-img {
+    width: 213px;
+    height: 213px;
+    display: block;
+    border: 1px solid #8d9095;
+    padding: 8px 8px;
+}
+
+.content .bottom .bottom-bt .goods .gd-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .bottom .bottom-bt .goods .text-name {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.content .bottom .bottom-bt .goods .text-name .name {
+    color: #3e3e3e;
+    font-weight: bold;
+}
+.content .bottom .bottom-bt .goods .text-name:hover a{
+    color: #F0443A;
+}

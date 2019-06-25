@@ -1,0 +1,114 @@
+/*在线预约*/
+.our .l1,.our .r1{
+    width:400px;
+}
+.our .m1{
+    width:160px;
+    text-align:center;
+}
+/*内容*/
+.content {
+    width: 1024px;
+    height: 388px;
+    padding-top: 20px;
+    margin: 0 auto 40px;
+}
+
+.content .cselect {
+    width: 482px;
+    height: 388px;
+    padding: 0 5px;
+    margin: auto;
+}
+
+.content .cselect .card {
+    padding-bottom: 10px;
+    width: 482px;
+    overflow: hidden;
+}
+
+.content .cselect .card .text {
+    font-size: 14px;
+    color: #555555;
+    /* padding-bottom: 10px;
+    box-sizing: border-box; */
+    float: left;
+}
+
+.content .cselect .card .text-box {
+    margin-left: 100px;
+    padding-left: 10px;
+    margin-top: 4px;
+    position: relative;
+}
+
+.content .cselect .card .text-box .one {
+    margin-bottom: 3px;
+    height: 20px;
+    border: solid 1px #CCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    color: #555555;
+    border-radius: 4px;
+}
+
+.content .cselect .card .text-box .two {
+    width: 64px;
+}
+
+.content .cselect .card .text-box .three {
+    width: 291px;
+}
+
+.content .cselect .card .text-box .push {
+    width: 16px;
+    height: 16px;
+}
+
+.content .cselect .card .text-box .sex {
+    font-size: 14px;
+    color: #555555;
+    vertical-align: 3px;
+    margin: 0 6px;
+}
+
+.content .cselect .card .text-box textarea {
+    margin-bottom: 3px;
+    height: 57px;
+    width: 291px;
+    border: solid 1px #CCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    color: #555555;
+    border-radius: 4px;
+}
+
+.content .cselect .card .text-box img {
+    width: 115px;
+    height: 40px;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+.content .cselect .card .text-box .icon {
+    font-size: 24px;
+    position: absolute;
+    top: 6px;
+    left: 54px;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+
+.content .cselect button {
+    width: 98px;
+    height: 28px;
+    background: #333;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}
+
+.content .cselect button:hover {
+    background: #ff6600;
+    border: 1px solid #333;
+}

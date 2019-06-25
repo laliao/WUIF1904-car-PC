@@ -1,0 +1,137 @@
+/*主图*/
+.master{
+    width:1024px;
+    height:auto;
+    margin-top:20px;
+}
+.master img{
+    width:1024px;
+    height:auto;
+}
+/*关于我们*/
+.our{
+    height:105px;
+    width:1024px;
+    margin-top:10px;
+    padding:20px 0;
+    box-sizing:border-box;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.our .left,.our .right{
+    width:428px;
+    height:1px;
+    background:#D6D6D6;
+}
+.our .middle{
+    height:65px;
+    width:128px;
+}
+.our .middle .text1{
+    font-family:微软雅黑;
+    font-size:32px;
+    color:#333333;
+    display:block;
+    line-height:42px;
+    text-align:center;
+}
+.our .middle .text2{
+    font-size:14px;
+    color:#a5a5a5;
+    display:block;
+    padding:2px;
+    line-height:20px;
+    text-align:center;
+}
+/*图加介绍*/
+.introduce{
+    height:325px;
+    width:1024px;
+    margin-top:20px;
+    padding:10px 20px 0;
+    box-sizing:border-box;
+}
+.introduce .left{
+    height:299px;
+    width:482px;
+    float:left;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.introduce .left>div{
+    font-size:14px;
+    color:#3E3E3E;
+    line-height:24px;
+}
+.introduce .right{
+    width:442px;
+    height:auto;
+    float:right;
+}
+.introduce .right img{
+    width:442px;
+    height:auto;
+}
+/*师傅介绍*/
+.master{
+    height:289px;
+    width:1024px;
+    margin-top:20px;
+    padding:0 20px;
+    box-sizing:border-box;
+}
+.master>li{
+    width:236px;
+    height:289px;
+    padding:0 5px;
+    float:left;
+}
+.master>li .image{
+    width:196px;
+    height:200px;
+    margin:0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.master>li .image img{
+    width:196px;
+    height:200px;
+}
+.master>li .content{
+    width:236px;
+    height:69px;
+    margin-top:20px;
+}
+.master>li .content .name1{
+    font-size:26px;
+    color: #3e3e3e;
+    font-family: "微软雅黑",Helvetica,Arial,Verdana,sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.master>li .content .name2{
+    color:#F0443A;
+    font-size: 14px;
+    text-align: center;
+    margin-top:10px;
+}
+.master .li1{
+    height:280px;
+}
+.master .li1 .image{
+    width:200px;
+    height:191px;
+}
+.master .li2 .image{
+    width:200px;
+    height:200px;
+}
+.master .li3{
+    height:284px;
+}
+.master .li3 .image{
+    width:200px;
+    height:195px;
+}
